@@ -1,0 +1,11 @@
+{
+  "auth": {
+    "prwebsited0c1a56a": {
+      "service": "Cognito",
+      "serviceType": "imported",
+      "providerPlugin": "awscloudformation",
+      "dependsOn": [],
+      "customAuth": false
+    }
+  }
+}
