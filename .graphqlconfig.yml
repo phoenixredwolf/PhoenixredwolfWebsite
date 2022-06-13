@@ -1,0 +1,12 @@
+projects:
+  prwebsite:
+    schemaPath: src/graphql/schema.json
+    includes:
+      - src/graphql/remote/portal.js
+    excludes:
+      - ./amplify/**
+    extensions:
+      amplify:
+        codeGenTarget: javascript
+        generatedFileName: ''
+        docsFilePath: src/graphql/remote
