@@ -58,7 +58,7 @@ export default {
     style: function (val) {
       if (val == 'text') {
         document.documentElement.style.setProperty("--color", "red")
-        document.documentElement.style.setProperty("--bg", "white")
+        document.documentElement.style.setProperty("--bg", "transparent")
       } else if (val == 'background') {
         document.documentElement.style.setProperty("--bg", "red")
         document.documentElement.style.setProperty("--color", "white")

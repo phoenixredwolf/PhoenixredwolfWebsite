@@ -128,6 +128,8 @@ export default {
 </script>
 
 <style scoped>
+
+
 .amplify-button {
   border: none;
 }
