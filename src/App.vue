@@ -30,6 +30,6 @@ nav a.router-link-exact-active {
 }
 
 body {
-  background-image: url("./assets/home2.jpg");
+  
 }
 </style>

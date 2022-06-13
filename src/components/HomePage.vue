@@ -12,5 +12,7 @@ export default {
 </script>
 
 <style scoped>
-
+body {
+  background-image: url("../assets/home2.jpg");
+}
 </style>

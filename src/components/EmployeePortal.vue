@@ -1,4 +1,5 @@
 <template>
+  <!-- Overdue Table -->
   <div v-show="overdue" class="overdue">
     <table>
       <tr>
@@ -42,7 +43,98 @@
       </div>
     </fieldset>
   </div>
-
+  <!-- Android Table -->
+  <div class="tables">
+    <h2>Android Tickets</h2>
+    <table>
+      <tr>
+        <th>Name</th>
+        <th>SME</th>
+        <th>Ticket Number</th>
+        <th>Ticket Name</th>
+        <th>Ticket Status</th>
+        <th>Assigned Date</th>
+        <th>Start Date</th>
+        <th>Due Date</th>
+      </tr>
+      <tr>
+        <td>Android Consultant 1</td>
+        <td>Android SME 1</td>
+        <td>TEST-12345</td>
+        <td>Test Ticket Title</td>
+        <td>In Progress</td>
+        <td>06/01/2022</td>
+        <td>06/01/2022</td>
+        <td>06/03/2022</td>
+      </tr>
+      <tr>
+        <td>Android Consultant 2</td>
+        <td>Android SME 1</td>
+        <td>TEST-12345</td>
+        <td>Test Ticket Title</td>
+        <td>In Progress</td>
+        <td>06/01/2022</td>
+        <td>06/01/2022</td>
+        <td>06/03/2022</td>
+      </tr>
+      <tr>
+        <td>Android Consultant 3</td>
+        <td>Android SME 3</td>
+        <td>TEST-12345</td>
+        <td>Test Ticket Title</td>
+        <td>In Progress</td>
+        <td>06/01/2022</td>
+        <td>06/01/2022</td>
+        <td>06/03/2022</td>
+      </tr>
+    </table>
+  </div>
+  <!-- iOS Table -->
+  <div class="tables">
+    <h2>iOS Tickets</h2>
+    <table>
+      <tr>
+        <th>Name</th>
+        <th>SME</th>
+        <th>Ticket Number</th>
+        <th>Ticket Name</th>
+        <th>Ticket Status</th>
+        <th>Assigned Date</th>
+        <th>Start Date</th>
+        <th>Due Date</th>
+      </tr>
+      <tr>
+        <td>iOS Consultant 1</td>
+        <td>iOS SME 1</td>
+        <td>TEST-12345</td>
+        <td>Test Ticket Title</td>
+        <td>In Progress</td>
+        <td>06/01/2022</td>
+        <td>06/01/2022</td>
+        <td>06/03/2022</td>
+      </tr>
+      <tr>
+        <td>iOS Consultant 2</td>
+        <td>iOS SME 1</td>
+        <td>TEST-12345</td>
+        <td>Test Ticket Title</td>
+        <td>In Progress</td>
+        <td>06/01/2022</td>
+        <td>06/01/2022</td>
+        <td>06/03/2022</td>
+      </tr>
+      <tr>
+        <td>iOS Consultant 3</td>
+        <td>iOS SME 3</td>
+        <td>TEST-12345</td>
+        <td>Test Ticket Title</td>
+        <td>In Progress</td>
+        <td>06/01/2022</td>
+        <td>06/01/2022</td>
+        <td>06/03/2022</td>
+      </tr>
+    </table>
+  </div>
 </template>
 
 <script>
@@ -81,10 +173,9 @@ html{
   font-size: xxx-large;
 }
 
-.otitle2 {
-  background-color: red;
-  color: white;
-  font-size: xxx-large;
+.tables {
+  padding-top: 25px;
+  padding-bottom: 25px;
 }
 
 table {
@@ -108,6 +199,10 @@ td {
 .testRadio {
   margin-top: 15px;
   width: 225px;
+}
+
+html {
+  background-image: none;
 }
 
 </style>
